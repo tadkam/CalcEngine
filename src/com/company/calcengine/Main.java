@@ -18,7 +18,7 @@ public class Main {
             } else {
                 result = 0;
             }
-        } else if (opCode == 'm'){
+        } else if (opCode == 'm'){ //zakomentowana linia na github.com 
             result = val1 * val2;
         } else {
             result = 0.0;
