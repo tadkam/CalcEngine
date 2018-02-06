@@ -57,9 +57,6 @@ public class MathEquation {
         execute();
     }
 
-
-
-
     public void execute(){
         switch(opCode) {
             case 'a':
