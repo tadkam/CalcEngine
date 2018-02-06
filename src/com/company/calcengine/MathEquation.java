@@ -35,6 +35,10 @@ public class MathEquation {
         return result;
     }
 
+    public MathEquation(){
+
+    }
+
 
 
     public MathEquation(char opCode){
@@ -45,6 +49,12 @@ public class MathEquation {
         this(opCode);
         this.leftVal = leftVal;
         this.rightVal = rightVal;
+    }
+
+    public void execute(double leftVal, double rightVal){
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+        execute();
     }
 
 
